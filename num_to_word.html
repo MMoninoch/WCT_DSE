@@ -13,23 +13,28 @@
     />
   </head>
   <body class="bg-dark">
-    <br><br><br>
-    <div class="container mx-auto mt-5 bg-transparent p-5">
-      <p class="fs-1 text-white">Enter amount :</p>
-      <div class="form-floating mb-3">
-        <input
-          type="number"
-          class="form-control"
-          id="floatingInput"
-          placeholder="amount"
-        />
-        <label for="floatingInput">Amount</label>
-      </div>
-      <button id="convertButton" type="button" class="btn btn-primary">
-        Convert to words
-      </button>
-      <div class="card mt-5">
-        <div class="card-body" id="wordsDisplay">Words</div>
+    <br /><br /><br />
+    <div class="container mx-auto">
+      <p class="fs-1 text-white fw-semibold">
+        Number to Word Convertor
+      </p>
+      <div class="mt-4 bg-primary p-5 rounded">
+        <p class="fs-1 text-white">Enter amount :</p>
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control"
+            id="floatingInput"
+            placeholder="amount"
+          />
+          <label for="floatingInput">Amount</label>
+        </div>
+        <button id="convertButton" type="button" class="btn btn-dark">
+          Convert to words
+        </button>
+        <div class="card mt-5">
+          <div class="card-body" id="wordsDisplay">Words</div>
+        </div>
       </div>
     </div>
 
